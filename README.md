@@ -1,6 +1,6 @@
 # SurferSEO Chrome Extension
 
-This is a free and open-source Chrome Extension for interacting with the SurferSEO API. This repository is not affiliated in any way with the SurferSEO company, this is an independent project to make using their service easier. **Please note that the SurferSEO API is only available to enterprise customers.** This extension is provided as-is for those with API access and a valid API key.
+This is a free and open-source Chrome Extension for interacting with the SurferSEO API (https://docs.surferseo.com/en/articles/5700335-surfer-api-documentation). This repository is not affiliated in any way with the SurferSEO company, this is an independent project to make using their service easier. **Please note that the SurferSEO API is only available to enterprise customers.** This extension is provided as-is for those with API access and a valid API key.
 
 ## Features
 
