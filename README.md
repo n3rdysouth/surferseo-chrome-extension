@@ -12,9 +12,6 @@ This is a free and open-source Chrome Extension for interacting with the SurferS
 ## Installation
 
 1. **Clone this repository:**
-   ```sh
-   git clone https://github.com/your-repository/surferseo-chrome-extension.git
-   ```
 
 2. **Open Chrome and navigate to `chrome://extensions`:**
    - Enable "Developer mode" in the top right corner.
