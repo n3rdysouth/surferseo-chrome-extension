@@ -66,10 +66,6 @@ This is a free and open-source Chrome Extension for interacting with the SurferS
 5. **Create a new Pull Request:**
    - Go to the repository on GitHub and click "New pull request".
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Disclaimer
 
 This is a free and open-source extension meant to facilitate interaction with the SurferSEO API for those who have access to it. The SurferSEO API itself is restricted to enterprise customers, and you must have a valid API key to use this extension.
