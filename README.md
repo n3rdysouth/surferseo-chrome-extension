@@ -47,7 +47,6 @@ This is a free and open-source Chrome Extension for interacting with the SurferS
 ## Contributing
 
 1. **Fork the repository:**
-   - [https://github.com/your-repository/surferseo-chrome-extension](https://github.com/your-repository/surferseo-chrome-extension)
 
 2. **Create your feature branch:**
    ```sh
