@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SurferSEO Extension</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    footer {
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="container" style="min-width: 400px;">
+  <div id="alert-container"></div>
+
+  <div id="setup" class="tab-pane">
+    <h1 style="font-size: 22px;">SurferSEO Extension Setup</h1>
+    <form id="setup-form">
+      <div class="mb-3">
+        <label for="apiKey" class="form-label">API Key</label>
+        <input type="text" class="form-control" id="apiKey" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+  </div>
+
+  <div id="app" class="tab-pane">
+    <h1 style="font-size: 22px;">SurferSEO Extension</h1>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#content-editor" data-toggle="tab">Content Editor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#audits" data-toggle="tab">Audits</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#serps-analyzer" data-toggle="tab">SERPs Analyzer</a>
+      </li>
+    </ul>
+
+    <div class="tab-content">
+      <div id="content-editor" class="tab-pane fade show active">
+        <form id="content-editor-form">
+          <div class="mb-3">
+            <label for="keyword" class="form-label">Keyword</label>
+            <input type="text" class="form-control" id="keyword" required>
+          </div>
+          <div class="mb-3">
+            <label for="location" class="form-label">Location</label>
+            <select class="form-select" id="location" required></select>
+          </div>
+          <button type="submit" class="btn btn-primary">Create</button>
+        </form>
+      </div>
+      <div id="audits" class="tab-pane fade">
+        <form id="audits-form">
+          <div class="mb-3">
+            <label for="url" class="form-label">URL</label>
+            <input type="text" class="form-control" id="url" value="" required>
+          </div>
+          <div class="mb-3">
+            <label for="keyword-audit" class="form-label">Keyword</label>
+            <input type="text" class="form-control" id="keyword-audit" required>
+          </div>
+          <div class="mb-3">
+            <label for="location-audit" class="form-label">Location</label>
+            <select class="form-select" id="location-audit" required></select>
+          </div>
+          <button type="submit" class="btn btn-primary">Create</button>
+        </form>
+      </div>
+      <div id="serps-analyzer" class="tab-pane fade">
+        <form id="serps-analyzer-form">
+          <div class="mb-3">
+            <label for="keyword-serps" class="form-label">Keyword</label>
+            <input type="text" class="form-control" id="keyword-serps" required>
+          </div>
+          <div class="mb-3">
+            <label for="location-serps" class="form-label">Location</label>
+            <select class="form-select" id="location-serps" required></select>
+          </div>
+          <button type="submit" class="btn btn-primary">Create</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <a href="#" id="change-api-key-link">Change API Key</a>
+  </footer>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>
